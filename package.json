@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx --fix",
-    "commit": "yarn run lint && git add . && git cz"
+    "commit": "yarn run lint && git add . && git cz && git push"
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
